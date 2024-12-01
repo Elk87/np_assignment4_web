@@ -9,7 +9,7 @@
 #include <sys/socket.h>
 #include <netdb.h>
 
-#define PORT 8283
+#define PORT 7171
 #define BUFFER_SIZE 1024
 
 void *handle_client(void *arg) {

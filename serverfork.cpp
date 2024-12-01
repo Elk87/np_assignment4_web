@@ -7,9 +7,9 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netdb.h>
-#include <sys/wait.h>  // Incluir este encabezado para waitpid
+#include <sys/wait.h>  
 
-#define PORT 8282
+#define PORT 9191
 #define BUFFER_SIZE 1024
 
 void handle_client(int client_socket) {
